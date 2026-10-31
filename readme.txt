@@ -1,5 +1,5 @@
 === Site Health Mini Dashboard ===
-Contributors: aliakbar45480
+Contributors: aliakbarrme
 Tags: site health, dashboard, maintenance, performance, seo
 Requires at least: 5.8
 Tested up to: 6.5

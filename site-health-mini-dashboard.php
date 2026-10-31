@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       Site Health Mini Dashboard
- * Plugin URI:        https://github.com/Aliakbar45480/site-health-mini-dashboard
+ * Plugin URI:        https://github.com/aliakbarrme/site-health-mini-dashboard
  * Description:       One dashboard widget that shows what needs attention on a WordPress site: pending updates, heavy images, missing alt text, inactive plugins, PHP version, SSL and debug mode — with a simple health score.
  * Version:           1.0.0
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Ali Akbar (BD Webhut)
- * Author URI:        https://github.com/Aliakbar45480
+ * Author URI:        https://github.com/aliakbarrme
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       site-health-mini
@@ -187,7 +187,7 @@ final class SHMD_Dashboard {
 					<li><a href="<?php echo esc_url( get_edit_post_link( $h['id'] ) ); ?>"><?php echo esc_html( $h['name'] ); ?></a> — <?php echo esc_html( size_format( $h['size'] ) ); ?></li>
 				<?php endforeach; ?>
 			</ol>
-			<p class="shmd-heavy">Tip: compress them for free with <a href="https://aliakbar45480.github.io/squeezy-image-compressor/" target="_blank" rel="noopener">Squeezy</a>.</p>
+			<p class="shmd-heavy">Tip: compress them for free with <a href="https://aliakbarrme.github.io/squeezy-image-compressor/" target="_blank" rel="noopener">Squeezy</a>.</p>
 		<?php endif; ?>
 		<div class="shmd-foot">
 			<span>Checked <?php echo esc_html( human_time_diff( $r['time'] ) ); ?> ago · newest <?php echo (int) self::SCAN_LIMIT; ?> images scanned</span>
